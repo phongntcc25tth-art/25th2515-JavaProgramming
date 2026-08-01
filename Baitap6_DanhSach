@@ -1,0 +1,23 @@
+public class Baitap6_DanhSach {
+    public static void main(String[] args) {
+        HocVien[] ds = {
+            new HocVien("HV01", "Nguyen Van A", 2000, "Nam"),
+            new HocVien("HV02", "Tran Thi B", 1999, "Nữ"),
+            new HocVien("HV03", "Le Van C", 2001, "Nam")
+        };
+
+        System.out.println("Danh sách học viên:");
+        for (HocVien hv : ds) {
+            hv.inThongTin();
+        }
+
+        HocVien oldest = ds[0];
+        for (HocVien hv : ds) {
+            if (hv.getNamSinh() < oldest.getNamSinh()) {
+                oldest = hv;
+            }
+        }
+        System.out.println("Học viên nhiều tuổi nhất:");
+        oldest.inThongTin();
+    }
+}
