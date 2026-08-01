@@ -28,3 +28,25 @@ public class HocVien {
         System.out.println(maHV + " - " + hoTen + " - " + namSinh + " - " + gioiTinh);
     }
 }
+
+java
+import java.util.Scanner;
+
+public class Baitap5_HocVien {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Mã học viên: ");
+        String ma = sc.nextLine();
+        System.out.print("Họ tên: ");
+        String ten = sc.nextLine();
+        System.out.print("Năm sinh: ");
+        int ns = sc.nextInt();
+        sc.nextLine(); // bỏ dòng
+        System.out.print("Giới tính: ");
+        String gt = sc.nextLine();
+
+        HocVien hv = new HocVien(ma, ten, ns, gt);
+        hv.inThongTin();
+    }
+}
+
