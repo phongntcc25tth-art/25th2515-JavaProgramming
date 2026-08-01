@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Baitap2_ChuviDT {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Nhập cạnh a: ");
+        double a = sc.nextDouble();
+        System.out.print("Nhập cạnh b: ");
+        double b = sc.nextDouble();
+
+        double chuVi = 2 * (a + b);
+        double dienTich = a * b;
+        double canhNho = Math.min(a, b);
+
+        System.out.println("Chu vi: " + chuVi);
+        System.out.println("Diện tích: " + dienTich);
+        System.out.println("Cạnh nhỏ: " + canhNho);
+    }
+}
