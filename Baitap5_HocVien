@@ -1,0 +1,30 @@
+public class HocVien {
+    private String maHV;
+    private String hoTen;
+    private int namSinh;
+    private String gioiTinh;
+
+    public HocVien(String maHV, String hoTen, int namSinh, String gioiTinh) {
+        this.maHV = maHV;
+        this.hoTen = hoTen;
+        this.namSinh = namSinh;
+        this.gioiTinh = gioiTinh;
+    }
+
+    // Getter & Setter
+    public String getMaHV() { return maHV; }
+    public void setMaHV(String maHV) { this.maHV = maHV; }
+
+    public String getHoTen() { return hoTen; }
+    public void setHoTen(String hoTen) { this.hoTen = hoTen; }
+
+    public int getNamSinh() { return namSinh; }
+    public void setNamSinh(int namSinh) { this.namSinh = namSinh; }
+
+    public String getGioiTinh() { return gioiTinh; }
+    public void setGioiTinh(String gioiTinh) { this.gioiTinh = gioiTinh; }
+
+    public void inThongTin() {
+        System.out.println(maHV + " - " + hoTen + " - " + namSinh + " - " + gioiTinh);
+    }
+}
