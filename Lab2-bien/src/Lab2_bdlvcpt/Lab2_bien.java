@@ -7,6 +7,7 @@ public class Lab2_bien {
 		Scanner sc = new Scanner(System.in);
 
         // Nhập thông tin sản phẩm
+		
         System.out.print("Nhập tên sản phẩm: ");
         String tenSP = sc.nextLine();
 
