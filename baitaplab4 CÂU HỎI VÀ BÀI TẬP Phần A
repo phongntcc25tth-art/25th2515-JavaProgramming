@@ -1,0 +1,21 @@
+: Câu hỏi lý thuyết  (5 phút)
+Câu 1: Lớp và đối tượng khác nhau như thế nào? Cho ví dụ minh họa.
+Lớp (Class) là bản thiết kế mô tả thuộc tính và phương thức của đối tượng.
+Đối tượng (Object) là thực thể được tạo ra từ lớp.
+
+Ví dụ: Lớp XeHoi; các đối tượng là xe1, xe2.
+
+Câu 2: Từ khóa new có ý nghĩa gì? Điều gì xảy ra khi sử dụng từ khóa new?
+
+Từ khóa new dùng để tạo một đối tượng mới. Khi sử dụng new, Java cấp phát bộ nhớ và khởi tạo đối tượng.
+
+Câu 3: Giải thích sự khác biệt giữa “thuộc tính” và “phương thức” trong một lớp.
+Thuộc tính: Dùng để lưu trữ dữ liệu của đối tượng.
+Phương thức: Dùng để thực hiện hành động hoặc xử lý dữ liệu của đối tượng.
+Câu 4: Tại sao một lớp được gọi là “bản thiết kế”?
+
+Vì lớp chứa các đặc điểm và hành vi chung để tạo ra nhiều đối tượng khác nhau, giống như bản thiết kế dùng để xây dựng sản phẩm.
+
+Câu 5: Có thể tạo bao nhiêu đối tượng từ một lớp?
+
+Có thể tạo nhiều đối tượng từ một lớp, số lượng phụ thuộc vào dung lượng bộ nhớ của máy tính.
