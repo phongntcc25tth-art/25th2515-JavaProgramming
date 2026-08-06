@@ -1,0 +1,28 @@
+Phần A: Câu hỏi lý thuyết (5 phút)
+
+
+Câu 1: ArrayList và Array thông thường khác nhau như thế nào?
+Array: Kích thước cố định.
+ArrayList: Kích thước linh hoạt, có nhiều phương thức hỗ trợ.
+
+Câu 2: Tại sao nên sử dụng Generics (List<String>) thay vì raw type (List)?
+Generics (List<String>) giúp an toàn kiểu dữ liệu, tránh lỗi và không cần ép kiểu.
+
+Câu 3: Khi nào thì ArrayList tự động mở rộng kích thước? Cơ chế mở rộng thế nào?
+
+ArrayList tự mở rộng khi đầy.
+Khi mở rộng sẽ tạo mảng mới lớn hơn và sao chép dữ liệu cũ sang.
+Câu 4: Phân biệt size() và capacity() trong ArrayList?
+
+size(): Số phần tử hiện có.
+capacity(): Sức chứa hiện tại của ArrayList.
+Câu 5: Khi nào nên dùng ArrayList, khi nào nên dùng LinkedList?
+
+ArrayList: Truy cập dữ liệu nhanh, dùng phổ biến nhất.
+LinkedList: Thêm/xóa ở đầu hoặc giữa nhanh hơn.
+Ghi nhớ
+ArrayList = Linh hoạt + Truy cập nhanh
+LinkedList = Thêm/Xóa nhanh
+Generics = An toàn dữ liệu
+size() = Số phần tử
+capacity() = Sức chứa
