@@ -32,9 +32,10 @@ public class taikhoanganhang {
 	    void hienThiSoDu() {
 	    	 System.out.println("Số tài khoản: " + soTaiKhoan);
 	         System.out.println("Chủ tài khoản: " + tenChuTaiKhoan);
-	        System.out.println("Số dư: " + soDu);
 	        System.out.println("Số dư: " + soDu + " VNĐ");
 	        System.out.println("----------------------");
+	        
+	        
 	    }
 	    }
 	}
